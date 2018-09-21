@@ -1,6 +1,7 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\babel@toc {spanish}{}
-\contentsline {chapter}{Declaraci\IeC {\'o}n de Autor\IeC {\'\i }a}{\es@scroman {iii}}{section*.1}
+\defcounter {refsection}{0}\relax 
+\select@language {spanish}
+\contentsline {chapter}{Declaración de Autoría}{\es@scroman {iii}}{section*.1}
 \contentsline {chapter}{Resumen}{\es@scroman {vii}}{section*.2}
 \contentsline {chapter}{Agradecimientos}{\es@scroman {ix}}{section*.3}
 \contentsline {chapter}{\numberline {1}Descripci\IeC {\'o}n del proyecto}{1}{chapter.14}
@@ -14,17 +15,13 @@
 \contentsline {subsection}{\numberline {1.3.3}Aplicaciones no financieras}{2}{subsection.22}
 \contentsline {subsection}{\numberline {1.3.4}Retos de blockchain}{2}{subsection.23}
 \contentsline {section}{\numberline {1.4}Objetivos del proyecto}{2}{section.24}
-\contentsline {subsection}{\numberline {1.4.1}Objetivo general}{2}{subsection.25}
+\contentsline {subsection}{\numberline {1.4.1}Objetivo general}{3}{subsection.25}
 \contentsline {subsection}{\numberline {1.4.2}Objetivos espec\IeC {\'\i }ficos}{3}{subsection.26}
 \contentsline {section}{\numberline {1.5}Metodolog\IeC {\'\i }a propuesta}{3}{section.27}
 \contentsline {section}{\numberline {1.6}Distribuci\IeC {\'o}n de resoponsabilidades para el desarrollo del proyecto}{3}{section.28}
 \contentsline {section}{\numberline {1.7}Resultados esperados}{3}{section.29}
 \contentsline {section}{\numberline {1.8}Actividades y cronograma de trabajo}{4}{section.33}
 \contentsline {section}{\numberline {1.9}Impactos esperados}{4}{section.34}
-\contentsline {chapter}{\numberline {2}Capitulo00 2 }{5}{chapter.35}
-\contentsline {section}{\numberline {2.1}Main Section 1}{5}{section.36}
-\contentsline {subsection}{\numberline {2.1.1}Subsection 1}{5}{subsection.37}
-\contentsline {subsection}{\numberline {2.1.2}Subsection 2}{5}{subsection.38}
-\contentsline {section}{\numberline {2.2}Main Section 2}{5}{section.39}
-\contentsline {chapter}{\numberline {A}Frequently Asked Questions}{7}{appendix.40}
-\contentsline {section}{\numberline {A.1}How do I change the colors of links?}{7}{section.41}
+\contentsline {chapter}{\numberline {A}Frequently Asked Questions}{5}{appendix.35}
+\contentsline {section}{\numberline {A.1}How do I change the colors of links?}{5}{section.36}
+\contentsline {chapter}{Bibliograf\'{\i }a}{7}{appendix*.37}
