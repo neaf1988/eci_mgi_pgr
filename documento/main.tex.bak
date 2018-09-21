@@ -151,7 +151,7 @@ headsepline, % Uncomment to get a line under the header
 \item Firmar, entregar y presentar esta propuesta de Trabajo de Investigación implica expreso testimonio de que esta propuesta fue desarrollada de acuerdo con las normas establecidas por la {\univname}
 \item Me comprometo a seguir estrictamente las normas de derechos de autor. 
 \item No haré publicaciones, informes, artículos o presentaciones en congresos, seminarios o conferencias sin la revisión o autorización expresa del Director, quien representará en este caso a la {\univname}.
-\\
+
 \end{itemize}
  
 \noindent Estudiante:\\
@@ -271,7 +271,7 @@ $\omega$ & angular frequency & \si{\radian} \\
 % Uncomment the lines as you write the chapters
 
 \include{Chapters/Chapter1}
-\include{Chapters/Capitulo2}
+%\include{Chapters/Capitulo2}
 %\include{Chapters/Chapter1}
 %\include{Chapters/Chapter2} 
 %\include{Chapters/Chapter3}
@@ -287,7 +287,7 @@ $\omega$ & angular frequency & \si{\radian} \\
 % Include the appendices of the thesis as separate files from the Appendices folder
 % Uncomment the lines as you write the Appendices
 
-\include{Appendices/AppendixA}
+%\include{Appendices/AppendixA}
 %\include{Appendices/AppendixB}
 %\include{Appendices/AppendixC}
 
