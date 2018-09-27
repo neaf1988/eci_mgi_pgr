@@ -13,14 +13,21 @@
 \contentsline {subsection}{\numberline {1.3.1}Contratos inteligentes}{2}{subsection.20}
 \contentsline {subsection}{\numberline {1.3.2}Propiedades Inteligentes}{2}{subsection.21}
 \contentsline {subsection}{\numberline {1.3.3}Monedas colereadas}{2}{subsection.22}
-\contentsline {subsection}{\numberline {1.3.4}Aplicaciones, mas all\IeC {\'a} de las criptomonedas}{3}{subsection.23}
-\contentsline {subsection}{\numberline {1.3.5}Retos de blockchain}{3}{subsection.24}
-\contentsline {section}{\numberline {1.4}Objetivos del proyecto}{3}{section.25}
-\contentsline {subsection}{\numberline {1.4.1}Objetivo general}{3}{subsection.26}
-\contentsline {subsection}{\numberline {1.4.2}Objetivos espec\IeC {\'\i }ficos}{3}{subsection.27}
-\contentsline {section}{\numberline {1.5}Metodolog\IeC {\'\i }a propuesta}{4}{section.28}
-\contentsline {section}{\numberline {1.6}Distribuci\IeC {\'o}n de resoponsabilidades para el desarrollo del proyecto}{4}{section.29}
-\contentsline {section}{\numberline {1.7}Resultados esperados}{4}{section.30}
-\contentsline {section}{\numberline {1.8}Actividades y cronograma de trabajo}{4}{section.34}
-\contentsline {section}{\numberline {1.9}Impactos esperados}{5}{section.35}
-\contentsline {chapter}{Bibliograf\'{\i }a}{7}{appendix*.36}
+\contentsline {subsection}{\numberline {1.3.4}Aplicaciones}{3}{subsection.23}
+\contentsline {subsubsection}{Valores privados}{3}{section*.24}
+\contentsline {subsubsection}{Notariado p\IeC {\'u}blico}{3}{section*.25}
+\contentsline {subsubsection}{Propiedad intelectual}{3}{section*.26}
+\contentsline {subsubsection}{Energia verde}{3}{section*.27}
+\contentsline {subsubsection}{Intenet de las cosas}{3}{section*.28}
+\contentsline {subsubsection}{Gesti\IeC {\'o}n de riesgos}{3}{section*.29}
+\contentsline {subsubsection}{Cuidado de la salud}{3}{section*.30}
+\contentsline {subsection}{\numberline {1.3.5}Retos de blockchain}{3}{subsection.31}
+\contentsline {section}{\numberline {1.4}Objetivos del proyecto}{3}{section.32}
+\contentsline {subsection}{\numberline {1.4.1}Objetivo general}{4}{subsection.33}
+\contentsline {subsection}{\numberline {1.4.2}Objetivos espec\IeC {\'\i }ficos}{4}{subsection.34}
+\contentsline {section}{\numberline {1.5}Metodolog\IeC {\'\i }a propuesta}{4}{section.35}
+\contentsline {section}{\numberline {1.6}Distribuci\IeC {\'o}n de resoponsabilidades para el desarrollo del proyecto}{4}{section.36}
+\contentsline {section}{\numberline {1.7}Resultados esperados}{4}{section.37}
+\contentsline {section}{\numberline {1.8}Actividades y cronograma de trabajo}{5}{section.41}
+\contentsline {section}{\numberline {1.9}Impactos esperados}{5}{section.42}
+\contentsline {chapter}{Bibliograf\'{\i }a}{7}{appendix*.43}
