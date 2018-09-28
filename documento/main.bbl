@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 2.8 $
+% $ biblatex bbl format version 2.9 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -16,7 +16,75 @@
   {}
 \endgroup
 
-\sortlist[entry]{nyt/global/}
+\datalist[entry]{nyt/global//global/global}
+  \entry{angraal2017blockchain}{article}{}
+    \name{author}{3}{}{%
+      {{hash=AS}{%
+         family={Angraal},
+         familyi={A\bibinitperiod},
+         given={Suveen},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=KHM}{%
+         family={Krumholz},
+         familyi={K\bibinitperiod},
+         given={Harlan\bibnamedelima M},
+         giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=SWL}{%
+         family={Schulz},
+         familyi={S\bibinitperiod},
+         given={Wade\bibnamedelima L},
+         giveni={W\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Am Heart Assoc}%
+    }
+    \strng{namehash}{ASKHMSWL1}
+    \strng{fullhash}{ASKHMSWL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{year}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{number}{9}
+    \field{pages}{e003800}
+    \field{title}{Blockchain technology: applications in health care}
+    \field{volume}{10}
+    \field{journaltitle}{Circulation: Cardiovascular Quality and Outcomes}
+    \field{year}{2017}
+  \endentry
+
+  \entry{cabral2018EstadoArte}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=AJC}{%
+         family={Arias},
+         familyi={A\bibinitperiod},
+         given={Jordi\bibnamedelima Cabral},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \keyw{Blockchain}
+    \strng{namehash}{AJC1}
+    \strng{fullhash}{AJC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{year}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{Estado del arte de la tecnolog{\'\i}a Blockchain ¿Burbuja o
+  consolidaci{\'o}n?}
+    \list{institution}{1}{%
+      {Universidad oberta de Catalunya}%
+    }
+    \field{type}{phdthesis}
+    \field{year}{2018}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{banafa2017Blockchain}{misc}{}
     \name{author}{1}{}{%
       {{hash=BA}{%
@@ -68,6 +136,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2016}
+    \field{labeldatesource}{year}
     \field{sortinit}{C}
     \field{sortinithash}{C}
     \field{pages}{6\bibrangedash 10}
@@ -112,6 +181,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2016}
+    \field{labeldatesource}{year}
     \field{sortinit}{H}
     \field{sortinithash}{H}
     \field{pages}{461\bibrangedash 466}
@@ -142,6 +212,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2017}
+    \field{labeldatesource}{year}
     \field{sortinit}{I}
     \field{sortinithash}{I}
     \field{title}{The truth about blockchain}
@@ -190,6 +261,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2016}
+    \field{labeldatesource}{year}
     \field{sortinit}{K}
     \field{sortinithash}{K}
     \field{booktitle}{2016 IEEE symposium on security and privacy (SP)}
@@ -214,6 +286,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2009}
+    \field{labeldatesource}{year}
     \field{sortinit}{N}
     \field{sortinithash}{N}
     \field{title}{Bitcoin: A Peer-to-Peer Electronic Cash System}
@@ -256,11 +329,12 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2016}
+    \field{labeldatesource}{year}
     \field{sortinit}{Z}
     \field{sortinithash}{Z}
     \field{title}{Blockchain challenges and opportunities: A survey}
     \field{journaltitle}{Work Pap.--2016}
     \field{year}{2016}
   \endentry
-\endsortlist
+\enddatalist
 \endinput
