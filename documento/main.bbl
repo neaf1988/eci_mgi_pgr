@@ -77,6 +77,51 @@
     \field{year}{2016}
   \endentry
 
+  \entry{huckle2016internet}{article}{}
+    \name{author}{4}{}{%
+      {{hash=HS}{%
+         family={Huckle},
+         familyi={H\bibinitperiod},
+         given={Steve},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BR}{%
+         family={Bhattacharya},
+         familyi={B\bibinitperiod},
+         given={Rituparna},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=WM}{%
+         family={White},
+         familyi={W\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BN}{%
+         family={Beloff},
+         familyi={B\bibinitperiod},
+         given={Natalia},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{HS+1}
+    \strng{fullhash}{HSBRWMBN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{pages}{461\bibrangedash 466}
+    \field{title}{Internet of things, blockchain and shared economy
+  applications}
+    \field{volume}{98}
+    \field{journaltitle}{Procedia computer science}
+    \field{year}{2016}
+  \endentry
+
   \entry{iansiti2017truth}{article}{}
     \name{author}{2}{}{%
       {{hash=IM}{%
@@ -99,10 +144,7 @@
     \field{labelyear}{2017}
     \field{sortinit}{I}
     \field{sortinithash}{I}
-    \field{number}{1}
-    \field{pages}{118\bibrangedash 127}
     \field{title}{The truth about blockchain}
-    \field{volume}{95}
     \field{journaltitle}{Harvard Business Review}
     \field{year}{2017}
   \endentry
@@ -180,6 +222,45 @@
     \endverb
     \field{month}{05}
     \field{year}{2009}
+  \endentry
+
+  \entry{zheng2016blockchain}{article}{}
+    \name{author}{4}{}{%
+      {{hash=ZZ}{%
+         family={Zheng},
+         familyi={Z\bibinitperiod},
+         given={Zibin},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=XS}{%
+         family={Xie},
+         familyi={X\bibinitperiod},
+         given={Shaoan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=DHN}{%
+         family={Dai},
+         familyi={D\bibinitperiod},
+         given={Hong-Ning},
+         giveni={H\bibinitperiod-N\bibinitperiod},
+      }}%
+      {{hash=WH}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Huaimin},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZZ+1}
+    \strng{fullhash}{ZZXSDHNWH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \field{title}{Blockchain challenges and opportunities: A survey}
+    \field{journaltitle}{Work Pap.--2016}
+    \field{year}{2016}
   \endentry
 \endsortlist
 \endinput

@@ -20,54 +20,49 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: main-blx.bib
 Database file #2: example.bib
 Warning--entry type for "banafa2017Blockchain" isn't style-file defined
---line 26 of file example.bib
-I was expecting an "="---line 32 of file example.bib
- :  
- :  biburl = {ttps://www.bbvaopenmind.com/ic-y-blockchain-retos-y-riesgos/}
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
+--line 32 of file example.bib
 Biblatex version: 3.3
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 6 entries,
+You've used 8 entries,
             6256 wiz_defined-function locations,
-            1206 strings with 9326 characters,
-and the built_in function-call counts, 28008 in all, are:
-= -- 1816
-> -- 545
-< -- 136
-+ -- 691
-- -- 200
-* -- 2058
-:= -- 2973
+            1215 strings with 9666 characters,
+and the built_in function-call counts, 41285 in all, are:
+= -- 2776
+> -- 758
+< -- 194
++ -- 1080
+- -- 278
+* -- 3046
+:= -- 4427
 add.period$ -- 0
-call.type$ -- 6
-change.case$ -- 56
+call.type$ -- 8
+change.case$ -- 85
 chr.to.int$ -- 36
-cite$ -- 10
-duplicate$ -- 3095
-empty$ -- 2646
-format.name$ -- 333
-if$ -- 5719
+cite$ -- 14
+duplicate$ -- 4672
+empty$ -- 3831
+format.name$ -- 494
+if$ -- 8342
 int.to.chr$ -- 0
-int.to.str$ -- 11
+int.to.str$ -- 16
 missing$ -- 0
-newline$ -- 184
-num.names$ -- 212
-pop$ -- 1780
+newline$ -- 264
+num.names$ -- 305
+pop$ -- 2522
 preamble$ -- 1
-purify$ -- 83
+purify$ -- 128
 quote$ -- 0
-skip$ -- 857
+skip$ -- 1183
 stack$ -- 0
-substring$ -- 2885
-swap$ -- 750
-text.length$ -- 151
-text.prefix$ -- 5
+substring$ -- 4423
+swap$ -- 1080
+text.length$ -- 207
+text.prefix$ -- 7
 top$ -- 1
-type$ -- 191
+type$ -- 259
 warning$ -- 0
-while$ -- 398
+while$ -- 591
 width$ -- 0
-write$ -- 179
-(There was 1 error message)
+write$ -- 257
+(There was 1 warning)
