@@ -19,13 +19,12 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: main-blx.bib
 Database file #2: example.bib
-Warning--I didn't find a database entry for "https://www.elespectador.com/economia/asi-se-utiliza-blockchain-para-garantizar-la-restitucion-de-tierras-articulo-809025"
 Biblatex version: 3.3
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 10 entries,
             6256 wiz_defined-function locations,
-            1231 strings with 10325 characters,
+            1230 strings with 10204 characters,
 and the built_in function-call counts, 54005 in all, are:
 = -- 3665
 > -- 1026
@@ -64,4 +63,3 @@ warning$ -- 0
 while$ -- 708
 width$ -- 0
 write$ -- 325
-(There was 1 warning)
