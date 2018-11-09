@@ -1,31 +1,32 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\babel@toc {spanish}{}
-\contentsline {chapter}{Declaraci\IeC {\'o}n de Autor\IeC {\'\i }a}{\es@scroman {iii}}{section*.1}
+\defcounter {refsection}{0}\relax 
+\select@language {spanish}
+\contentsline {chapter}{Declaración de Autoría}{\es@scroman {iii}}{section*.1}
 \contentsline {chapter}{Resumen}{\es@scroman {vii}}{section*.2}
 \contentsline {chapter}{Agradecimientos}{\es@scroman {ix}}{section*.3}
 \contentsline {chapter}{\numberline {1}Descripci\IeC {\'o}n del proyecto}{1}{chapter.14}
 \contentsline {section}{\numberline {1.1}Resumen del proyecto}{1}{section.15}
-\contentsline {section}{\numberline {1.2}Planteamiento del problema}{1}{section.16}
-\contentsline {subsection}{\numberline {1.2.1}Planteamiento}{1}{subsection.17}
-\contentsline {subsection}{\numberline {1.2.2}Formulaci\IeC {\'o}n}{2}{subsection.18}
-\contentsline {section}{\numberline {1.3}Estado del arte}{2}{section.19}
-\contentsline {subsection}{\numberline {1.3.1}Contratos inteligentes}{2}{subsection.20}
-\contentsline {subsection}{\numberline {1.3.2}Propiedades Inteligentes}{2}{subsection.21}
-\contentsline {subsection}{\numberline {1.3.3}Monedas colereadas}{3}{subsection.22}
-\contentsline {subsection}{\numberline {1.3.4}Aplicaciones}{3}{subsection.23}
-\contentsline {subsubsection}{Valores privados}{3}{section*.24}
-\contentsline {subsubsection}{Notariado p\IeC {\'u}blico}{3}{section*.25}
-\contentsline {subsubsection}{Propiedad intelectual}{3}{section*.27}
-\contentsline {subsubsection}{Intenet de las cosas}{4}{section*.28}
-\contentsline {subsubsection}{Cuidado de la salud}{4}{section*.29}
-\contentsline {subsection}{\numberline {1.3.5}Retos de blockchain}{5}{subsection.30}
-\contentsline {subsubsection}{Regulaci\IeC {\'o}n}{5}{section*.31}
-\contentsline {subsubsection}{Escalabilidad}{5}{section*.32}
-\contentsline {subsubsection}{Resistencia al cambio}{5}{section*.34}
-\contentsline {subsubsection}{Integraci\IeC {\'o}n con el pasado}{5}{section*.35}
-\contentsline {subsubsection}{Fraude}{6}{section*.36}
-\contentsline {subsubsection}{S\IeC {\'u}per computadoras}{6}{section*.37}
-\contentsline {section}{\numberline {1.4}Objetivos del proyecto}{6}{section.38}
-\contentsline {subsection}{\numberline {1.4.1}Objetivo general}{6}{subsection.39}
-\contentsline {subsection}{\numberline {1.4.2}Objetivos espec\IeC {\'\i }ficos}{6}{subsection.40}
-\contentsline {chapter}{Bibliograf\'{\i }a}{7}{appendix*.41}
+\contentsline {section}{\numberline {1.2}Planteamiento del problema}{1}{section.19}
+\contentsline {subsection}{\numberline {1.2.1}Planteamiento}{1}{subsection.20}
+\contentsline {subsection}{\numberline {1.2.2}Formulaci\IeC {\'o}n}{2}{subsection.21}
+\contentsline {section}{\numberline {1.3}Estado del arte}{2}{section.22}
+\contentsline {subsection}{\numberline {1.3.1}Contratos inteligentes}{2}{subsection.23}
+\contentsline {subsection}{\numberline {1.3.2}Propiedades Inteligentes}{2}{subsection.24}
+\contentsline {subsection}{\numberline {1.3.3}Monedas colereadas}{3}{subsection.25}
+\contentsline {subsection}{\numberline {1.3.4}Aplicaciones}{3}{subsection.26}
+\contentsline {subsubsection}{Valores privados}{3}{section*.27}
+\contentsline {subsubsection}{Notariado p\IeC {\'u}blico}{3}{section*.28}
+\contentsline {subsubsection}{Propiedad intelectual}{3}{section*.30}
+\contentsline {subsubsection}{Intenet de las cosas}{4}{section*.31}
+\contentsline {subsubsection}{Cuidado de la salud}{4}{section*.32}
+\contentsline {subsection}{\numberline {1.3.5}Retos de blockchain}{5}{subsection.33}
+\contentsline {subsubsection}{Regulaci\IeC {\'o}n}{5}{section*.34}
+\contentsline {subsubsection}{Escalabilidad}{5}{section*.35}
+\contentsline {subsubsection}{Resistencia al cambio}{5}{section*.37}
+\contentsline {subsubsection}{Integraci\IeC {\'o}n con el pasado}{5}{section*.38}
+\contentsline {subsubsection}{Fraude}{6}{section*.39}
+\contentsline {subsubsection}{S\IeC {\'u}per computadoras}{6}{section*.40}
+\contentsline {section}{\numberline {1.4}Objetivos del proyecto}{6}{section.41}
+\contentsline {subsection}{\numberline {1.4.1}Objetivo general}{6}{subsection.42}
+\contentsline {subsection}{\numberline {1.4.2}Objetivos espec\IeC {\'\i }ficos}{6}{subsection.43}
+\contentsline {chapter}{Bibliograf\'{\i }a}{9}{appendix*.44}
