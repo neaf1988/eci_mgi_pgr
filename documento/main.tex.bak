@@ -187,7 +187,7 @@ headsepline, % Uncomment to get a line under the header
 
 \begin{abstract}
 \addchaptertocentry{\abstractname} % Add the abstract to the table of contents
-This work is deep research about how Blockchain should help and improve daily process, those process related to transactions would be taken with enhanced security, anonymity and decentralized \ldots
+This work is deep research about how Blockchain should help and improve a daily process, those process related to transactions would be taken with enhanced security, anonymity and decentralized; particulary tradition and freedom process in which all the movements of an immovable property are written down. The project goes through the state of blockchain art, the business architecture necessary for its implementation, the approach of a model that satisfies the needs of the process and a validation of it that determines if blockchain is a viable technology to be used in the process by that offers the guarantees and covers the problems and needs raised  
 \end{abstract}
 
 %----------------------------------------------------------------------------------------
@@ -200,7 +200,7 @@ Agradezco profundamente a mi esposa y mi hijo por ser diariamente mi fuerza y mi
 \\
 A mis padres que me forjaron a ser quien soy, mi mamá en especial por su apoyo constante en cada locura que se me ocurre.
 \\
-Al {\supname} por la dedicación, paciencia y esfuerzo durante la consecución de este documento \ldots
+Al {\supname} por la dedicación, paciencia y esfuerzo durante la consecución de este documento.
 \end{acknowledgements}
 
 %----------------------------------------------------------------------------------------
