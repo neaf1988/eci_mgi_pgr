@@ -9,27 +9,31 @@
 %----------------------------------------------------------------------------------------
 
 \section{Resumen del proyecto}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultricies lacinia euismod. Nam tempus risus in dolor rhoncus in interdum enim tincidunt. Donec vel nunc neque. In condimentum ullamcorper quam non consequat. Fusce sagittis tempor feugiat. Fusce magna erat, molestie eu convallis ut, tempus sed arcu. Quisque molestie, ante a tincidunt ullamcorper, sapien enim dignissim lacus, in semper nibh erat lobortis purus. Integer dapibus ligula ac risus convallis pellentesque.
+Este proyecto consiste en una investigación de la tecnología blockchain y su viabilidad para ser aplicado en los procesos de notariado público, específicamente en el proceso de tradición y libertad, debido sus latencias durante el proceso de validación y además posibles fallos en la revisión de las anotaciones donde para bien o para mal los interesados en un bien pueden ser afectados, esto se puede traducir esto en fallos de seguridad e integridad en el proceso. 
 \\
-\\
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultricies lacinia euismod. Nam tempus risus in dolor rhoncus in interdum enim tincidunt. Donec vel nunc neque. In condimentum ullamcorper quam non consequat. Fusce sagittis tempor feugiat. Fusce magna erat, molestie eu convallis ut, tempus sed arcu. Quisque molestie, ante a tincidunt ullamcorper, sapien enim dignissim lacus, in semper nibh erat lobortis purus. Integer dapibus ligula ac risus convallis pellentesque.
-\\
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultricies lacinia euismod. Nam tempus risus in dolor rhoncus in interdum enim tincidunt. Donec vel nunc neque. In condimentum ullamcorper quam non consequat. Fusce sagittis tempor feugiat. Fusce magna erat, molestie eu convallis ut, tempus sed arcu. Quisque
+El método para determinar esta viabilidad es planteando:   
+\begin{enumerate}
+\item Una arquitectura empresarial que nos permita determinar el estado actual del proceso y que se debe implementar tecnológicamente (subprocesos, proyectos, software, hardware) basados en blockchain como la posible solución al problema. 
+\item Plantear un modelo de blockchain el cual cubras las necesidades del proceso y que también el proceso haga uso en extensión de la tecnología y no sea subutilizada. 
+\item Evaluar el modelo planteado para determinar que el proceso en mención sea más eficiente y reduzca los tiempos sin que se vea afectada la calidad del resultado, es decir que todas las anotaciones de un bien inmueble sean validadas certeramente y fiablemente. 
+\end{enumerate}
+
 \section{Planteamiento del problema}
 
 
 \subsection{Planteamiento}
 
-A continuación mencionaré un conjunto de necesidades planteadas por la ley antitrámites del 2012 y que en consecuencia debería cumplirse por los entes de notariado.
+El proceso de compra de un bien inmueble se inicia con un contrato de compraventa presentado ante una notaría pero que a su vez debe ser presentado ante la oficina de instrumentos públicos y solo será válido una vez que un conjunto de abogados valide que la operación se puede efectuar revisando las anotaciones existentes sobre el bien en cuestión, este periodo puede ser de hasta 7 días, esto sin contar el tiempo que costaría generar la escritura pública del bien, pero centremonos solo en el proceso de tradición y libertad. Este tiempo además de ser extremadamente alto, no garantiza que por alguna omisión voluntaria o involuntaria se omita alguna anotación que este en contra de la anotación entrante, entonces se infiere que el proceso carece de seguridad y esta solo depende del grupo de revisores, que a estas alturas en un país donde los índices de corrupción son tan elevados no es garantía de nada. 
 \\
-Artículo 9 parágrafo A indica que si el solicitante de un trámite tiene papeles que debe presentar en otra entidad puede indicar en que entidad se encuentra tal documento y por lo tanto entre estas entidades deben transferirse estos documentos sin perjucio del mismo trámite. Artículo 15 las entidades públicas o privados que ejerzan funciones pueden tener acceso a los registros públicos esto con el fin de obviar estos certificados. Artículo 19 identificación de personas.
-\\
-Adicionalmente se puede decir que los trámites propios en las notarias son complejos, muy costosos al momento de obtener copias de un documento y toman tiempo en efectuarse pero además todos estos registros quedan almacenados por cada notaría sin ser compartidos entre ellas u otras entidades que puedan requerir la información allí alojada de una forma rápida. 
+Basado en la ley antitrámites del 2012 es un compendio de buenas prácticas entre entes gubernamentales, es de destacar el artículo 15 de esta ley donde se establece que las entidades públicas o privados que ejerzan funciones pueden tener acceso a los registros públicos esto con el fin de obviar estos certificados.
 
 \subsection{Formulación}
 La arquitectura empresarial planteada muestra que es posible mejorar los tiempos de operación en el proceso de tradición y libertad?
 
 \section{Estado del arte}
+
+A continuación se describe como Blockchain ha incursionado en el mundo y dejó de ser una tecnología de papel, para darse paso como una tecnología de punta y protagonista de los próximos años, a través de la búsqueda de varios documentos como: artículos, libros y trabajos de grado; se rescata la importancia de esta tecnología y como apoya otras tecnologías que antes de blockchain no parecian tener algun rumbo implementable y además cómo diferentes sectores industriales y/o comerciales han obtenido grandes beneficios de su implementación en sus procesos para obtener beneficios.
+\\
 Blockchain es una tecnología reciente y revolucionaria donde se establece una nueva arquitectura\citep{iansiti2017truth}, esto es que, se basa en la confianza de los nodos de la red, plantea eliminar a los terceros o intermediarios que hacen las validaciones y generan la confianza necesaria entre los dos participantes de la transacción, por lo tanto existe una aprobación general en la red frente a una transacción  que puede ser verificada en cualquier momento en el pasado o el presente \citep{crosby2016blockchain}
 \\
 Blockchain se comporta como un libro de transacciones, basado en cifrado lo cual garantiza la transparencia y seguridad en cada transacción, sin ahondar técnicamente en su funcionamiento podemos indicar que cada transaccion es inalterable, aunque de fondo lo es, podría ser dectectado el fraude con facilidad y descartando la cadena en cuestión, por lo tanto en un símil un bloque, con un conjunto de transacciones, puede ser alterado pero del mismo modo podrá ser dectectado y descartado por los nodos honestos de la red \citep{nakamoto2009bitcoin}
@@ -120,6 +124,24 @@ Proponer una arquitectura empresarial para el proceso de tradición y libertad c
 \item Evaluar la viabilidad de la arquitectura propuesta para el proceso de tradición y libertad de notariado público
 \end{itemize}
 
+\subsection{Justificación}
 
+Se cumple con la justificación cuando se presentan argumentos para demostrar la
+importancia o trascendencia de la investigación. La justificación se hace en
+relación con el tema y se redacta en tercera persona; allí se explica por qué el
+tema es importante y cuáles son las razones que lo convierten en base de la
+investigación. Se alude a quién o quiénes se verán beneficiados en forma directa o
+indirecta y en qué consiste dicho beneficio. Se debe sustentar con estadísticas y
+demostrar con argumentos sólidos, describiendo el problema y delimitándolo
+conceptualmente. Sirve como base para la formulación de los objetivos. Aquí debe
+destacarse: relevancia social, beneficios sociales, científicos, pedagógicos o
+institucionales y/o sobre un área de la ciencia. Factibilidad para hacer la
+investigación con los recursos materiales, humanos y de tiempo disponibles
 
+\subsection{Alcances y limitaciones}
 
+Son impedimentos u obstáculos que se presentan en la investigación, que la
+limitan e incluso pueden impedir que ésta avance o tenga éxito. Pueden ser
+limitantes, por ejemplo, el grado de conocimiento sobre el tema, el manejo de las
+variables, el tiempo destinado para el proceso, los recursos, la bibliografía
+disponible o lo improbable de lograr alguno de los objetivos planteados
