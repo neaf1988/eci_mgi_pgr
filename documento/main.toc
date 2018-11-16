@@ -1,7 +1,6 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\defcounter {refsection}{0}\relax 
-\select@language {spanish}
-\contentsline {chapter}{Declaración de Autoría}{\es@scroman {iii}}{section*.1}
+\babel@toc {spanish}{}
+\contentsline {chapter}{Declaraci\IeC {\'o}n de Autor\IeC {\'\i }a}{\es@scroman {iii}}{section*.1}
 \contentsline {chapter}{Resumen}{\es@scroman {vii}}{section*.2}
 \contentsline {chapter}{Agradecimientos}{\es@scroman {ix}}{section*.3}
 \contentsline {chapter}{\numberline {1}Descripci\IeC {\'o}n del proyecto}{1}{chapter.6}
