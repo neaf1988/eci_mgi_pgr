@@ -31,4 +31,6 @@
 \contentsline {subsection}{\numberline {1.4.2}Objetivos espec\IeC {\'\i }ficos}{7}{subsection.37}
 \contentsline {section}{\numberline {1.5}Justificaci\IeC {\'o}n}{7}{section.38}
 \contentsline {section}{\numberline {1.6}Alcances y limitaciones}{7}{section.39}
-\contentsline {chapter}{Bibliograf\'{\i }a}{9}{appendix*.40}
+\contentsline {subsection}{\numberline {1.6.1}Alcances}{7}{subsection.40}
+\contentsline {subsection}{\numberline {1.6.2}Limitaciones}{8}{subsection.45}
+\contentsline {chapter}{Bibliograf\'{\i }a}{9}{appendix*.46}
