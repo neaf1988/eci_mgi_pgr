@@ -9,13 +9,14 @@
 %----------------------------------------------------------------------------------------
 
 \section{Resumen del proyecto}
-Este proyecto consiste en una investigación de la tecnología blockchain y su viabilidad para ser aplicado en los procesos de notariado público, específicamente en el proceso de tradición y libertad, debido sus latencias durante el proceso de validación y además posibles fallos en la revisión de las anotaciones donde para bien o para mal los interesados en un bien pueden ser afectados, esto se puede traducir esto en fallos de seguridad e integridad en el proceso. 
+Este proyecto parte de una investigación sobre la tecnología \blckchn y su viabilidad para ser aplicada en el sector de servicios del notariado público, específicamente en el proceso de tradición y libertad. Es de considerarse frente a este proceso que: a) su condición latente durante la validación y b) los posibles fallos en la revisión de las anotaciones, son momentos en donde los usuarios interesados en un bien inmueble pueden verse afectados para bien o para mal, ya que estas son labores realizadas de forma manual; lo cual se traduce en la existencia de fallos de seguridad e integridad en el desarrollo del proceso de tradición y libertad.
 \\
-El método para determinar esta viabilidad es planteando:   
+El método para determinar la viabilidad de aplicar la tecnología \blckchn en el proceso de tradición y libertad de los servicios de notariado público es:   
+
 \begin{enumerate}
-\item Una arquitectura empresarial que nos permita determinar el estado actual del proceso y que se debe implementar tecnológicamente (subprocesos, proyectos, software, hardware) basados en blockchain como la posible solución al problema. 
-\item Plantear un modelo de blockchain el cual cubras las necesidades del proceso y que también el proceso haga uso en extensión de la tecnología y no sea subutilizada. 
-\item Evaluar el modelo planteado para determinar que el proceso en mención sea más eficiente y reduzca los tiempos sin que se vea afectada la calidad del resultado, es decir que todas las anotaciones de un bien inmueble sean validadas certeramente y fiablemente. 
+\item Una arquitectura empresarial que permita determinar el estado actual del proceso, y a partir de ello reconocer los soportes que desde la tecnología \blckchn (subprocesos, proyectos, software, hardware) se requieran implementar con el fin de proporcionar una solución a los problemas de latencia y errores humanos en el proceso de tradición y libertad. 
+\item Plantear un modelo desde la tecnología \blckchn que cubra las necesidades del proceso de tradición y libertad en el notariado público, y que también el mismo proceso pueda hacer uso extensivo de la tecnología. 
+\item Evaluar el modelo \blckchn planetado y aplicado al proceso de tradicion y libertad, con el fin de identificar si el mismo es eficiente de forma certera y fiable en la validación de todas las anotaciones de un bien inmueble y reduce los tiempos de respuesta a los usuarios del servicio.
 \end{enumerate}
 
 \section{Planteamiento del problema}
@@ -23,129 +24,179 @@ El método para determinar esta viabilidad es planteando:
 
 \subsection{Planteamiento}
 
-El proceso de compra de un bien inmueble se inicia con un contrato de compraventa presentado ante una notaría pero que a su vez debe ser presentado ante la oficina de instrumentos públicos y solo será válido una vez que un conjunto de abogados valide que la operación se puede efectuar revisando las anotaciones existentes sobre el bien en cuestión, este periodo puede ser de hasta 7 días, esto sin contar el tiempo que costaría generar la escritura pública del bien, pero centremonos solo en el proceso de tradición y libertad. Este tiempo además de ser extremadamente alto, no garantiza que por alguna omisión voluntaria o involuntaria se omita alguna anotación que este en contra de la anotación entrante, entonces se infiere que el proceso carece de seguridad y esta solo depende del grupo de revisores, que a estas alturas en un país donde los índices de corrupción son tan elevados no es garantía de nada. 
+El proceso de compra de un bien inmueble se inicia con la escritura y firma de una promesa de compraventa, documento que es presentado ante una notaría y, a su vez, ante la Oficina de Instrumentos Públicos. Dicho soporte solo es válido luego de que un grupo de abogados pertenencientes a la segunda instancia mencionada anteriormente, constate la validez de la operación de venta descrita en el documento a partir de la revisión de las anotaciones existentes sobre el bien inmueble en cuestión; proceso que puede tener una duración aproximada de hasta 7 días, sin tener en cuenta el tiempo requerido para generar la escritura pública del bien inmueble.
 \\
- La superintendencia de notariado y registro desde el 2016 \footnote{https://colombiadigital.net/opinion/columnistas/certicamara/item/9423-compra-de-inmuebles-biometria-para-no-convertirse-en-victima-de-fraude.html} ha reforzado su seguridad implementando sistema biométrico en sus operaciones. Para el 2015 más de 3000\footnote{https://www.las2orillas.co/el-cartel-de-escrituradores-las-estafas-de-compra-venta-de-predios} personas presentaron denuncias por estafas en compra y venta de inmuebles, pero implementar los servicios biométricos no ha evitado que se sigan presentado los fraudes durante los procesos de compra - venta de inmuebles todo porque durante este proceso no se puede garantizar que el vendedor sea en efecto el que aparece registrado como tal.
- \\
-Basado en la ley antitrámites del 2012 es un compendio de buenas prácticas entre entes gubernamentales, es de destacar el artículo 15 de esta ley donde se establece que las entidades públicas o privados que ejerzan funciones pueden tener acceso a los registros públicos esto con el fin de obviar estos certificados.
+Dentro de esta labor y, particularmente, en el proceso de tradición y libertad se identifica que el tiempo requerido para el trámite es extremadamente alto y no garantiza que por alguna
+omisión voluntaria o involuntaria de los funcionarios sea omitida alguna anotación que pueda ir en contra de la anotación entrante (promesa de compraventa). Entonces, se infiere que este proceso carece de seguridad, pues esta depende solamente de grupo de abogados revisores, que siendo un capital humano puede cometer errores; y sumado a ello los altos índices de corrupción presentados en el sector público de servicios en Colombia son factores que directamente influencian la veracidad del proceso. 
+\\[0.5cm]
+Para el 2015, más de 3.000 \footnote{https://www.las2orillas.co/el-cartel-de-escrituradores-las-estafas-de-compra-venta-de-predios} personas en Colombia presentaron diversas denuncias por estafas en la compra y venta de bienes inmuebles, y para el 2016 \footnote{https://colombiadigital.net/opinion/columnistas/certicamara/item/9423-compra-de-inmuebles-biometria-para-no-convertirse-en-victima-de-fraude.html} la Superintendencia de Notariado y Registro ha implementado el sistema biométrico para el desarrollo de sus operaciones con el fin de reforzar su seguridad. Lastimosamente, ello no ha evitado que se sigan presentando fraudes durante las operaciones de compra y venta de bienes inmuebles debido a que dentro de estas, aún no es posible garantizar que el vendedor del bien inmueble sea, en efecto, quien aparece registrado como tal.
+\\
+De acuerdo con la Ley antitrámites del 2012 que es un compendio de buenas prácticas aplicables para y entre las entidades gubernamentales, es de destacarse el artículo 15 donde se establece que las entidades públicas o privadas que ejerzan funciones de servicio a ciudadanos, pueden tener acceso a los registros públicos esto con el fin de obviar estos certificados.
+\\
 
+\begin{center}
+    \begin{minipage}{0.9\linewidth}
+        \vspace{5pt}%margen superior de minipage
+        {\small
+
+ACCESO DE LAS AUTORIDADES A LOS REGISTROS PÚBLICOS,
+Las entidades públicas y las privadas que cumplan funciones públicas o
+presten servicios públicos pueden conectarse gratuitamente a los registros públicos
+que llevan las entidades encargadas de expedir los certificados de existencia y
+representación legal de las personas jurídicas, los certificados de tradición de bienes
+inmuebles, naves, aeronaves y vehículos y los certificados tributarios, en las
+condiciones y con las seguridades requeridas que establezca el reglamento. La
+lectura de la información obviará la solicitud del certificado y servirá de prueba bajo
+la anotación del funcionario que efectúe la consulta.
+        }
+        \begin{flushright}
+            (Ley Antitrámites 2012, Artículo 15)
+        \end{flushright}
+        \vspace{5pt}%margen inferior de la minipage
+    \end{minipage}
+\end{center}
+
+
+
+
+
+  
 
 \subsection{Formulación}
-La arquitectura empresarial planteada muestra que es posible mejorar los tiempos de operación en el proceso de tradición y libertad garantizando la seguridad e integridad del mismo?
+¿Es posible qué dentro de la arquitectura empresarial planteada se puedan mejorar los tiempo de operación y respuesta en el proceso de generación de un certificado de tradición y libertad, garantizando la seguridad e integridad de este?
 
 \section{Estado del arte}
 
-A continuación se describe como Blockchain ha incursionado en el mundo y dejó de ser una tecnología de papel, para darse paso como una tecnología de punta y protagonista de los próximos años, a través de la búsqueda de varios documentos como: artículos, libros y trabajos de grado; se rescata la importancia de esta tecnología y como apoya otras tecnologías que antes de blockchain no parecian tener algun rumbo implementable y además cómo diferentes sectores industriales y/o comerciales han obtenido grandes beneficios de su implementación en sus procesos para obtener beneficios.
+A continuación se describe como \blckchn ha incursionado en el mundo y dejó de ser una tecnología de papel, para darse paso como una tecnología de punta y protagonista de los próximos años.
+\\ 
+Para ello se realizó la búsqueda de varias fuentes bibliográficas (trabajos de grado, libros y artículos científicos) en los que se lograse identificar el manejo de otras tecnologías diferentes al \blckchn en diferentes sectores industriales y/o comerciales, y las limitaciones que estas tuvieron para abordar los problemas y falencias que se presentaron durante su aplicación. De igual forma, se orientó la consulta de las fuentes a establecer la importancia del uso de la tecnología \blckchn y el apoyo que esta puede brindarle a tecnologías anteriores para la consecución de beneficios y optimización de procesos.
 \\
-Blockchain es una tecnología reciente y revolucionaria donde se establece una nueva arquitectura\citep{iansiti2017truth}, esto es que, se basa en la confianza de los nodos de la red, plantea eliminar a los terceros o intermediarios que hacen las validaciones y generan la confianza necesaria entre los dos participantes de la transacción, por lo tanto existe una aprobación general en la red frente a una transacción  que puede ser verificada en cualquier momento en el pasado o el presente \citep{crosby2016blockchain}
+\blckchn es una tecnología reciente y revolucionaria que comenzo a ser utilizada en el 2009 donde se establece una nueva arquitectura \citep{iansiti2017truth}, basada en la confianza de los nodos de la red, ya que busca eliminar los intermediarios, responsables de la fase de validación; pues al realizarse los procesos en red se cuenta con una aprobación general por este canal, y así se crea la posibilidad de que la fase de validación y verificación se desarrolle en cualquier momento tanto en el pasado como presente o a futuro \citep{crosby2016blockchain}. Y en consecuencia, el nivel de confianza llega a incrementarse entre los usuarios partícipes de la transacción. 
 \\
-Blockchain se comporta como un libro de transacciones, basado en cifrado lo cual garantiza la transparencia y seguridad en cada transacción, sin ahondar técnicamente en su funcionamiento podemos indicar que cada transaccion es inalterable, aunque de fondo lo es, podría ser dectectado el fraude con facilidad y descartando la cadena en cuestión, por lo tanto en un símil un bloque, con un conjunto de transacciones, puede ser alterado pero del mismo modo podrá ser dectectado y descartado por los nodos honestos de la red \citep{nakamoto2009bitcoin}
+\blckchn se comporta como un libro de transacciones, basado en cifrado lo cual garantiza la transparencia y seguridad en cada uno de sus procesos. Sin ahondar técnicamente en su funcionamiento, puede indicarse que cada transaccion es inalterable, y llegado el caso de que se efectué algún tipo de alteración en la información, este puede ser detectado con facilidad y descartando la cadena en cuestión. Por lo tanto en un símil, un bloque con un conjunto de transacciones, puede ser alterado pero del mismo modo podrá ser dectectado y descartado por los nodos honestos de la red \citep{nakamoto2009bitcoin}
 \\
-Y si bien durante este proceso hemos mencionado que es una conjunto de registros distribuido y que gracias al cifrado podemos garantizar la transparencia en las transacciones, también, se pueden anonimizar las transacciones ya que no es necesario saber quien la realiza sino solo su identificador público (clave pública) \citep{crosby2016blockchain}, basado en la tecnologia de cifrado publico/privado garantizamos que los registros son irrefutables \citep{banafa2017Blockchain} y que de por si garantiza la comunicación entre las partes \citep{iansiti2017truth}
+Si bien durante este proceso se ha mencionado que la tecnología \blckchn es un conjunto de registros distribuidos y que gracias al cifrado puede garantizarse la transparencia en las transacciones, al igual que, se puede anonimizar las transacciones ya que no es necesario saber quien la realiza sino solamente conocer el identificador público (clave pública) \citep{crosby2016blockchain}, para lo cual se tiene en cuenta la tecnologia de cifrado publico/privado con la cual se garantiza que los registros son irrefutables \citep{banafa2017Blockchain}, y sumado a ello se posibilita que la comunicación entre las partes sea confiable \citep{iansiti2017truth}
 
 
 \subsection{Contratos inteligentes}
-Son basicamente un conjunto de reglas programadas que ejecutan los terminos de un contrato de forma automatica al cumplirse o no estas condiciones \citep{crosby2016blockchain}
-Basados en que Blockchain  tiene control de algunas variables como tiempo \citep{kosba2016hawk} y los participantes de una transacción es practicamente un trabajo adicional que se apalanquen los contratos a una tecnología implementada con Blockchain que permitirá verificar controlar y ejecutar con mayor facilidad.
+Son basicamente un conjunto de reglas programadas que ejecutan los terminos de un contrato de forma automática al cumplirse o no las reglas previamente programadas \citep{crosby2016blockchain}
+Basados en que \blckchn  tiene control de algunas variables como el tiempo \citep{kosba2016hawk} y los participantes de una transacción; es practicamente un trabajo adicional que se apalanquen los contratos a una tecnología implementada con \blckchn, permitiéndose así  verificar, controlar y ejecutar con mayor facilidad los procesos.
 
 \subsection{Propiedades Inteligentes}
-``Es otro concepto relacionado al control de un activo/bien/propiedad mediante los contratos inteligentes "
-\citep{crosby2016blockchain}
+Según \citep{crosby2016blockchain} ``Es otro concepto relacionado al control de un activo/bien/propiedad mediante los contratos inteligentes "
+
 
 \subsection{Monedas colereadas}
-Si respresentamos los objetos existentes en una transacción con una etiqueta (colorear el objeto) para marcar a ese objeto como si fuera en realidad un representación del mundo real (activo/bien/propiedad), eje. unas acciones.
-De esta forma se puede almacenar los movimientos de estos en las transacciones pero idetificando claramente a cada una de estas etiquetas.
+Al ser respresentados los objetos existentes en una transacción con una etiqueta (colorear el objeto) para marcarlo como si fuera en realidad un representación del mundo real (activo/bien/propiedad), eje. unas acciones, se puede almacenar los movimientos de estos objetos en las transacciones idetificando claramente a cada una de estas etiquetas.
 \\
-Se podría poner la propiedad de un auto o una casa en una transacción y moverla de un propietario a otro. \citep{crosby2016blockchain}
+Es asi como se podría poner la propiedad de un auto o una casa en una transacción y moverla de un propietario a otro. \citep{crosby2016blockchain}
 
 
 
 \subsection{Aplicaciones}
 
 \subsubsection{Valores privados}
-Las bolsas de valores listan acciones de la compañía en un mercado secundario para funcionar de forma segura con operaciones de liquidación y compensación de manera oportuna, ahora es posible para las empresas que emitan directamente las acciones a través de Blockchain. Estas acciones puede ser compradas y vendidas en un mercado que se encuentra en la cadena de bloques. \citep{crosby2016blockchain}
+Las bolsas de valores son empresas que trabajan colocando en el mercado secundario grupos de acciones de diversas compañías con el fin de que se generen de manera segura y oportuna operaciones de liquidación y compensación. Esto es posible realizarse actualmente a través de \blckchn, ya que un número determinado de acciones pueden ser vendidas o compradas en un mercado que se encuentra dentro de una cadena de bloques. \citep{crosby2016blockchain}
 
 \subsubsection{Notariado público}
-Gracias a las características de Blockchain las cuales garantizan que las transacciones son firmadas por el creador y receptor, que cada transaccción se registre con una marca de tiempo y se mantenga la transparencia e integridad son garantias que un documento  tendrá un creador y que este documento fue creado en un momento de tiempo y que el registro de ese documento se mantendrá en el tiempo inmutable. \citep{zheng2016blockchain}
-\\Podemos adicionar que esto elimina la necesidad de que un tercero valide alguna de las caracterisitcas previas sino que de la misma forma este documento estará distribuido a lo largo de la red lo cual generará que los costos del proceso disminuyan \citep{crosby2016blockchain}
-\\
-Para el 2018 en Colombia el gobierno está apalancando en esta tecnología para su proyecto de restitución de tierras \footnote{https://www.elespectador.com/economia/asi-se-utiliza-blockchain-para-garantizar-la-restitucion-de-tierras-articulo-809025} a personas victimas del conflicto armado.
+Gracias al nivel de seguridad brindado por \blckchn, se garantiza que las transacciones sean firmadas por el vendedor y comprador del bien inmueble, y que cada transacción quede registrada con una marca de tiempo, manteniéndose con ello un nivel de transparencia e integridad. Es así, como todo documento quedará registrado con un creador, en un tiempo determinado y de forma inmutable \citep{zheng2016blockchain}. 
+El proceder con la tecnología \blckchn ocasiona la eliminación de la fase de validación de características previas del bien inmueble por parte de un tercero, ya que el documento creado estará disponible a lo largo de la red y con acceso de consulta para quien lo requiera, optimizándose de esta forma los tiempos de trámite y la reducción en sus costos \citep{crosby2016blockchain}. 
+Un ejemplo de aplicación de la tecnología \blckchn en el contexto colombiano se encuentra en los proyectos de restitución de predios a víctimas del conflicto armado realizados por la Agencia Nacional de Tierras. \footnote{https://www.elespectador.com/economia/asi-se-utiliza-blockchain-para-garantizar-la-restitucion-de-tierras-articulo-809025} a personas victimas del conflicto armado.
 
 \subsubsection{Propiedad intelectual}
-Si bien cualquier recurso digital se le puede aplicar el modelo de blockchain, a medio electronicos como películas, canciones y demás que involucren propiedad intelectual les impacta de buena forma está tecnología ya que con esta tecnología será garante de que no se puedan generar duplicaciones no autorizadas. \citep{huckle2016internet}
-\\
-''Aquí es donde el blockchain puede jugar un papel. La tecnología puede ayudar a mantener una gran base de datos distribuida precisa de la propiedad de los derechos musicales información en un libro público. Adicionalmente a la información de propiedad de derechos, la división de regalías para cada trabajo, según lo determinado por Smart Contracts, podría ser agregado a la base de datos. Esta Los contratos inteligentes a su vez definirían las relaciones de relación entre diferentes partes interesadas  y automatizar sus interacciones'' \citep{crosby2016blockchain}
+Si bien cualquier recurso digital se le puede aplicar la tecnología \blckchn, es de destacarse que a los productos  electrónicos como películas, canciones y vídeos entre otros, donde se ve involucrada la propiedad intelectual, el uso de esta tecnología genera un impacto beneficioso, pues garantiza que no se realicen duplicaciones no autorizadas de estos productos \citep{huckle2016internet}.
 
-\subsubsection{Intenet de las cosas}
-Internet de las cosas (IoT por sus siglas en ingles) es una tencnología emergente y que con seguridad no ha logrado su máximo de madurez, al igual que Blockchain, IoT tiene como finalidad integrar los elemento de nuestro diario vivir con nosotros de formas autonomas y transparentes.
+\begin{center}
+    \begin{minipage}{0.9\linewidth}
+        \vspace{5pt}%margen superior de minipage
+        {\small
+
+Aquí es donde el \blckchn puede jugar un papel. La tecnología puede ayudar a mantener una gran base de datos distribuida precisa de la propiedad de los derechos musicales información en un libro público. Adicionalmente a la información de propiedad de derechos, la división de regalías para cada trabajo, según lo determinado por Smart Contracts, podría ser agregado a la base de datos. Esta Los contratos inteligentes a su vez definirían las relaciones de relación entre diferentes partes interesadas  y automatizar sus interacciones.
+        }
+        \begin{flushright}
+            \citep{crosby2016blockchain}
+        \end{flushright}
+        \vspace{5pt}%margen inferior de la minipage
+    \end{minipage}
+\end{center}
+
+\subsubsection{Internet de las cosas}
+Internet de las cosas (IoT por sus siglas en ingles) es una tencnología emergente y que con ''seguridad" no ha logrado su máximo de madurez. Al igual que \blckchn, IoT tiene como finalidad integrar los iferentes procesos de la vida diaria con sus usuarios de una forma autónoma y transparente.
 \\
-En el comercio electrónico se esta proponiendo un nuevo modelo basado en Blockchain y contratos inteligentes de propiedades inteligentes, la idea es que las personas reciban transacciones al cumplirse una condición  a partir de señales de sensores emitidas por los  objetos inteligentes. \citep{zheng2016blockchain}
+En el comercio electrónico se esta proponiendo un nuevo modelo basado en \blckchn y contratos inteligentes de propiedades inteligentes y la idea es que las personas reciban transacciones al cumplirse una condición  a partir de señales de sensores emitidas por los  objetos inteligentes \citep{zheng2016blockchain}.
 \\
-Para añadir otro elemento Blockchain puede proveer una descentralizada red que habilita a los  objetos inteligentes a interactuar con criptomonedas y garantizar que todas sus interacciones estan completamente validadas por la red\citep{crosby2016blockchain}, de esta forma los usuarios podrán tener tranquilidad que ningun dispositivo podrá ser vulnerado o manipulado en beneficio o en contra de un usuario.
+Otro elemento que se le puede sumar al uso de \blckchn es la descentralización que esta tecnología le brinda a la red, donde se habilitan los objetos inteligentes a interactuar con criptomonedas y garantizando con ello que todas sus interacciones estén completamente validadas por la red \citep{crosby2016blockchain}; de esta forma, los usuarios podrán tener tranquilidad en cuanto a que ningún dispositivo podrá ser vulnerado o manipulado en beneficio o en contra de un usuario.
 \\
-Un ejemplo con una tecnología emergente hace un par de años y que ahora parece consolidarse un poco es Uber, está podría implementar un modelo de IoT y Blockchain; para cuando un pasajero llega a su destino el cobro se implemente de inmediato mediante contratos inteligentes, pero de la misma forma cuando el conductor de Uber no garantiza el servicio el pasajero se puede ver beneficiado cobrando una multa por un mal servicio o daño en la reputación por alguna circustancia.\citep{huckle2016internet}
+Un ejemplo con una tecnología emergente hace un par de años y que ahora parece consolidarse un poco es Uber, en este servicio se podría implementar un modelo de IoT y \blckchn; permitiendo que cuando un pasajero llega a su destino , el cobro del servicio sea efectuado de forma inmediata a partir de contratos inteligentes, pero de la misma forma cuando el conductor de Uber no garantiza el servicio, el pasajero se puede ver beneficiado cobrando una multa debido al mal servicio prestado por el conductor del sistema Uber o por el daño que este le haya generado a su capital social \citep{huckle2016internet}.
 
 
 \subsubsection{Cuidado de la salud}
-Uno de los campos de acción de Blockchain es permitir garantizar la identidad de los pacientes, un paciente debidamente carnetizado y enrolado permite que toda su información sea el unico que puede acceder a ella y permitir a quienes les da acceso para que sea consultada. \citep{angraal2017blockchain} Pero sin lugar a dudas lo más beneficioso para un paciente es que puede aprovechar la ventaja de que su historia está distribuida y como se beneficia de esto, supongamos un paciente crónico alérgico a una gran cantidad de medicamentos y/o compuestos químicos tantos como para no poder mencionarlos todos o un paciente con una gran cantidad de cirugias a lo largo de su vida, como hacen ahora para poder cambiar de ubicación? pues deben llevar su historia médica en papeles, Blockchain llega al rescate todo estará disponible para ser consultado cualquier médico autorizado podrá revisarlo con los conceptos de sus colegas no solo lo que recuerda el paciente.
+Uno de los campos de acción de \blckchn es permitir garantizar la identidad de los pacientes, ya que un paciente debidamente carnetizado y enrolado permite que toda su información sea el unico que puede acceder a ella y a toda la información personal registrada en el sistema y sean ellos quienes directamente otorguen los accesos de consulta respectivos de acuerdo a la necesidad o requerimiento del momento \citep{angraal2017blockchain}. Pero sin lugar a dudas lo más beneficioso para un paciente es que puede tener la ventaja de que su historial este distribuido y esto le beneficia. Por ejemplo, suponiendo que un paciente crónico alérgico a una gran cantidad de medicamentos y/o compuestos químicos , disponer de su historial clínico por red disminuye los riesgos al no recordar esta información de vital importancia; o el caso de tantos un paciente con una gran cantidad de cirugias a lo largo de su vida, ¿Cómo hacer para poder informar de todos esos procedimientos quirúrgicos sin necesidad de cargar con una gran cantidad de documentos y soportes?, es aquí donde la tecnología \blckchn vuelve amigable la interacción de los usuarios con una una gran cantidad de información que debe ser consultada de forma permanente, y además, permite que cualquier médico autorizado pueda revisar las observaciones, diagnósticos y sugerencias de otros colegas que estén registrados en el historial del paciente, y no limitase solamente a lo que la persona recuerde durante sus consultas o controles.
 \\
-Esto nos lleva a otro uso y es que entre aplicaciones que usan la tecnología se podría compartir información de un paciente, podrían compartir autorizaciones, permisos y acuerdos firmados, esto sería de gran ayuda para reducir los tiempos de procesos entre organizaciones que prestan servicios de salud. \citep{angraal2017blockchain}
+Lo anterior lleva a considerar la ventaja que brinda esta tecnología, cuando es empleada desde diferentes aplicaciones y/o entidades de salud, pues entre ellas se puede compartir información de un paciente, hasta el punto de compartir autorizaciones, permisos y acuerdos firmados, siendo ello de gran ayuda para reducir los tiempos de procesos entre organizaciones que prestan servicios de salud \citep{angraal2017blockchain}.
 
-\subsection{Retos de blockchain}
+
+\subsection{Retos de \blckchn}
 \subsubsection{Regulación}
-El tema regulatorio es bastante discutible, la tecnología siempre avanza mucho mas rápido que los gobiernos, en especial latino americano, como es de esperarse Blockchain se está asentando y el gobierno aun no ve la necesidad de hacerlo, lo difícil de esta postura es que cuando se vea en la necesidad puede que sea muy restrictivo impactando de forma negativa e impidiendo todo su potencial\citep{banafa2017Blockchain}, permitiendo que solo algunos se benficien de este mismo como menciona \citep{cabral2018EstadoArte} deberá ser equilibrado y regular lo suficiente para impedir que se use de forma fraudulenta y también proteger al más debil. 
+
+El tema regulatorio es bastante discutible debido a que la tecnología siempre avanza mucho más rápido que los gobiernos, especialmente en el contexto latinoamericano, y para el caso de \blckchn que se está asentando su uso, el gobierno nacional aun no es consecuente con la necesidad de aplicar esta tecnología en los diferentes procesos de aquellas instituciones que manejen gran cantidad de información que requiere se consultada de forma permanente. Lo difícil de esta posición gubernamental es que cuando sea más notoria la necesidad de hacer uso de tecnología para la administración de datos, puedan presentarse restricciones en su aplicación, generando un impacto negativo ya que se impide explotar todo el potencial y ventajas de esta herramienta \citep{banafa2017Blockchain}, y en consecuencia sean unos pocos los que logre verse beneficiados \citep{cabral2018EstadoArte}. Es por ello que se requiere de forma urgente equilibrar y regular el manejo de información que debe ser trabajada de forma transversal por diferentes empresas y/o entidades, y así disminuir los índices de fraude y generando un ambiente de equidad entre los usuarios de los servicios de estas entidades.
+
 \subsubsection{Escalabilidad}
-El constante crecimiento de la base de datos, con un tamaño 100,18 GB \footnote{cifras 2016}, todas las transacciones deben ser almacenadas para poder validar cada transacción, además que por definición el tiempo entre bloques de transacciones tiene un retraso de tiempo lo que lleva a que se procesen solo 7 transacciones por segundo lo que lleva a que en un mundo donde se implemente esta tencnología impediría que se use en tiempo real \citep{zheng2016blockchain}
-\\Además si un usuario es nuevo en el ecosistema y pretende hacer una transacción debera primero sincornizar su base de datos descargando toda la cadena de bloques y validar las transacciones antes de poder realizar su transacción lo cual le tomará un tiempo en ejecutar \citep{crosby2016blockchain}
+
+El constante crecimiento de la base de datos, con un tamaño de 100,18 GB \footnote{Cifras 2016}, genera que todas las transacciones deban ser registradas y almacenadas para poder validarlas a futuro. Además que por definición, el tiempo entre bloques de transacciones tiene un retraso y, en consecuencia se pueda realizar el procesamiento solamente de 7 transacciones por segundo aproximadamente, y en consecuencia, en un contexto donde se implemente esta tecnología, se impediría que se pueda usar en tiempo real \citep{zheng2016blockchain}.  
+\\
+Además si un usuario es nuevo en el ecosistema y pretende hacer una transacción deberá primero sincronizar su base de datos, para lo cual necesita descargar toda la cadena de bloques y validando las transacciones antes de poder realizar su transacción, siendo esto un proceso que le tomará tiempo extra para su ejecución \citep{crosby2016blockchain}.
+
 \subsubsection{Resistencia al cambio}
-Como en todo proyecto de tecnología, por lo general innovadores, se debe hacer la gestión del cambio para no impedir que los actores generen resitencia y el proyecto fracase en una organización, en este caso puede que no sea una organización pero si el público en general puede ser renuente al uso, debido a que se pueden generar mitos sobre el uso de la tecnología como problemas de seguridad, ineficiencia, lentidtud, etc. En la actualidad los intermediarios (eje. Visa, masteercard, Uber)\citep{crosby2016blockchain} brindan la seguridad que ningun problema se pueda presentar (aun cuando se presentan) y son garantes de que las transacciones se cumplan con satisfacción de las partes. 
+Como en todo proyecto de tecnología, por lo general innovadores, se debe hacer la gestión del cambio para no impedir que los actores generen resitencia y el proyecto fracase en una organización. En este caso puede que no sea una organización, pero si el público en general puede ser renuente a su uso debido a los mitos que giran en torno al uso de la tecnología, como por ejemplo, la baja seguridad, la ineficiencia, la lentitud de la red, etc. En la actualidad los intermediarios (eje. Visa, Masteercard, Uber)\citep{crosby2016blockchain} brindan la seguridad que ningún problema pueda presentarse en sus procesos transaccionales (aun cuando siguen existiendo) y son garantes de que las transacciones se cumplan con satisfacción para ambas partes. 
+
 \subsubsection{Integración con el pasado}
-Uno de los grandes problemas que se pueden presentar en la aplicación de la tenoclogía es la historia existente, primero el problema que conlleva la migración de esta historia implicaría tiempo y costos altos\citep{crosby2016blockchain} y ademas ya que de alguna forma se debe integrar pero toda esta historia se registrarían como nuevas transacciones en la cadena y se generaría confusiones y si no se tiene cuidado el orden de documentos, por ejemplo podría alterarse cronologicamente si no se hace un uso adecuado, aunque este reto propiamente afecta a la organización que quiera aplicar está tecnología deberá tener en cuenta un proyecto alterno de  gestión del conocimiento por ejemplo, para mitigar este riesgo.
+Uno de los grandes problemas que se pueden presentar en la aplicación de la tecnología es la historia de información existente, primero el problema que conlleva la migración de esta historia implicaría tiempo y altos costos \citep{crosby2016blockchain} y además ya que de alguna forma se debe integrar toda esa historia de información, la cual se registraría como nuevas transacciones en la cadena, generando ello confusiones, y si no se tiene el cuidado necesario para la organización de documentos, como por ejemplo la secuencia cronológica de estos, se vería afectada toda la información. Este reto propiamente afecta a la organización que quiera aplicar está tecnología y para ello, deberá tener en cuenta un proyecto alterno de  gestión del conocimiento con el que busque mitigar este riesgo.
 
 \subsubsection{Fraude}
-Debido a la naturaleza de Blockchain se pueden presentar intentos de fraude, pero como se indica en el artículo originar de Blockchain se espera que el esfuerzo tan alto de hacer fraude se vea mejor recompensado por el hecho de hacer el esfuerzo por mantener un cadena de bloques honesta\citep{nakamoto2009bitcoin}, pero en algún punto el camino tenderá a torcerse y deberá mantenerse controles y regulaciones para controlar estos intentos de una forma certera, encaminados con regulaciones de ley para que la comunidad se sienta protegida
+Debido a la naturaleza de \blckchn, se pueden presentar intentos de fraude, pero como lo indica \citep{nakamoto2009bitcoin} en su artículo, se espera que el esfuerzo tan alto de hacer fraude se vea mejor recompensado frente el hecho de hacer un esfuerzo por mantener un cadena de bloques honesta, pero en algún punto del camino se encontrará una tendencia a torcerse y deberá mantenerse controles y regulaciones para controlar estos intentos de una forma certera, encaminados con regulaciones de ley para que la comunidad se sienta protegida.
 
 \subsubsection{Súper computadoras}
-La capacidad de computo es una de las piedras angulares de Blockchain y la prueba de trabajo es un control de varios elementos del protocolo Blockchain, por lo tanto si llegará a existir alguna super computadora que siempre estuviera en la capacidad de generar primero la prueba de esfuerzo implicaría que la dificultad \citep{nakamoto2009bitcoin} deberá aunmentar hasta que los mineros puedan generarlo aleatoriamente, pero por obvias razones los demas mineros continuaran en desventaja ya que su capacidad de computo es menor.
+La capacidad de computo es una de las piedras angulares de \blckchn y la prueba de trabajo es un control de varios elementos del protocolo \blckchn, por lo tanto, si llegará a existir alguna super computadora que siempre estuviera en la capacidad de generar primero la prueba de esfuerzo, implicaría que la dificultad deberá aunmentar hasta que los mineros puedan generarla aleatoriamente, pero por obvias razones los demas mineros continuarán en desventaja ya que su capacidad de computo es menor \citep{nakamoto2009bitcoin}.
 \\
-Pero ahora si, como es de esperarse, la capacidad de computo de la comunidad minera comienza a mejorar la difcultad, como se mencionó antes, debe aumentar pero existe una limitante en esa dificultad y es que la cantidad de ceros no puede crecer infinitamente por que si no no quedará espacio para la información lo que obligaría al protocolo a migrar de algoritmo de seguridad con implicaciones e impactos para la red elevados\citep{crosby2016blockchain}
+Pero ahora, como es de esperarse, la capacidad de computo de la comunidad minera comienza a mejorar la difcultad, pues como se mencionó antes, debe aumentar pero existe una limitante en esa dificultad y es que la cantidad de ceros no puede crecer infinitamente pues de lo contrario, no quedará espacio para la información lo que obligaría al protocolo a migrar de algoritmo de seguridad con implicaciones e impactos para la red elevados\citep{crosby2016blockchain}
 
 
 \section{Objetivos del proyecto}
 
 \subsection{Objetivo general}
-Proponer una arquitectura empresarial para el proceso de tradición y libertad con el fin de mejorar la comunicación en procesos notariales mediante la implementación de la tecnología de Blockchain. 
+Proponer una arquitectura empresarial para el proceso de tradición y libertad con el fin de mejorar la comunicación entre los procesos notariales mediante la implementación de la tecnología de \blckchn. 
 
 \subsection{Objetivos específicos}
 \begin{itemize}
 
-\item Definir un modelo de Arquitectura empresarial para el proceso de tradición y libertad de notariado público detectando las necesidades para la adopción de blockchain
+\item Definir un modelo de Arquitectura empresarial para el proceso de tradición y libertad de notariado público detectando las necesidades para la adopción de \blckchn.
 
-\item Elaborar un prototipo basado en la tecnología Blockchain donde se represente el proceso y se demuestre que se puede controlar la distribución de documentos y sus validaciones
+\item Elaborar un prototipo basado en la tecnología \blckchn donde se represente el proceso y se demuestre que se puede controlar la distribución de documentos y sus validaciones.
 
-\item Evaluar la viabilidad de la arquitectura propuesta para el proceso de tradición y libertad de notariado público
+\item Evaluar la viabilidad de la arquitectura propuesta para el proceso de tradición y libertad del notariado público.
 \end{itemize}
 
 \section{Justificación}
 
- La tecnología de Blockchain permite garantizar que cada anotación o movimiento que se registre para un inmueble sea accesible para todos los interesados y que cada transacción que se presente sea validada por los interesados, esta validación por ejemplo nos permite identificar si un inmueble se está intentando vender por una persona que no es el propietario, si un propeitario intenta vender o hacer un negocio de venta dos o más veces (doble gasto), identificar si un inmueble tiene una anotación de afectación sobre el inmueble como hipótecas o vivienda familiar entre otros. Por si fuera poco esta validaciones casi en tiempo real reducirán los tiempos de análisis y el recurso humano que actualmente toma lo que al final del ejercicio reduce algunos costos del proceso pero lo más importante es que para los interesados en la compra del inmueble implique un menor gasto de tiempo en su negociación.
+ La tecnología de \blckchn permite garantizar que cada anotación o movimiento que se registre para un bien inmueble sea accesible para todos los interesados, y que cada transacción que se presente sea validada por los interesados. Esta validación, por ejemplo, permitiría identificar si un inmueble está intentando vender por una persona que no es el propietario, o si un propeitario intenta vender o hacer un negocio de venta dos o más veces (doble gasto), identificar si un inmueble tiene una anotación de afectación sobre el inmueble como hipótecas o vivienda familiar entre otros.Con la aplicación de \blckchn, estas validaciones realizadas casi en tiempo real reducirían los tiempos de análisis y el recurso humano que actualmente realiza estos procesos lo que al final del ejercicio permite la reducción de algunos costos en el proceso, pero lo más importante es que para los interesados en la compra del inmueble implique la reducción de tiempo le beneficia enormemente en su negociación.
 
 \section{Alcances y limitaciones}
 
 \subsection{Alcances}
 \begin{enumerate}
-\item Elaborar un artículo sobre el estado del arte de Blockchain
-\item Diseñar una arquitectura empresarial para el proceso de tradición y libertad
-\item Elaborar un modelo usando la tecnología Blockchain usando como base la arquitectura previamente diseñada
-\item Evaluar el modelo y corroborar que se mantiene el proceso con las mejoras propuestas
+\item Elaborar un artículo sobre el estado del arte de \blckchn.
+\item Diseñar una arquitectura empresarial para el proceso de tradición y libertad.
+\item Elaborar un modelo usando la tecnología \blckchn usando como base la arquitectura previamente diseñada.
+\item Evaluar el modelo y corroborar que se mantiene el proceso con las mejoras propuestas.
 \end{enumerate}
 
 
 \subsection{Limitaciones}
 \begin{itemize}
-\item Durante la elaboración del proyecto se pueden presentar regulaciones por parte del gobierno los cuales impliquen elaborar cambios en la arquitectura empresarial o el modelo los cuales no puedan ser contemplados para el trabajo actual.
-\item No se cuenta con una base inicial ni datos sobre la arquitectura empresarial inicial que permita contrastar el modelo a desarrollar, por lo tanto nos basaremos en que se cumpla el proceso en condiciones generales.
-\item El modelo a plantear se probara con datos ficticios ya que no se dispone de acceso a datos reales.
+\item Durante la elaboración del proyecto se pueden presentar regulaciones por parte del gobierno los cuales impliquen elaborar cambios en la arquitectura empresarial o el modelo, los cuales no puedan ser contemplados para el trabajo actual.
+\item No se cuenta con una base inicial ni datos sobre la arquitectura empresarial inicial que permitan contrastar el modelo a desarrollar, por lo tanto nos basaremos en que se cumpla el proceso en condiciones generales.
+\item El modelo a plantear se probará con datos ficticios ya que no se dispone de acceso a datos reales.
 \end{itemize}
 
 

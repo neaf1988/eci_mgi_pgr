@@ -75,8 +75,8 @@
     \field{labeldatesource}{year}
     \field{sortinit}{A}
     \field{sortinithash}{A}
-    \field{title}{Estado del arte de la tecnolog{\'\i}a Blockchain Â¿Burbuja
-  o consolidaci{\'o}n?}
+    \field{title}{Estado del arte de la tecnolog{\'\i}a Blockchain Burbuja o
+  consolidaci{\'o}n?}
     \list{institution}{1}{%
       {Universidad oberta de Catalunya}%
     }
@@ -340,7 +340,7 @@
     \field{sortinit}{Z}
     \field{sortinithash}{Z}
     \field{title}{Blockchain challenges and opportunities: A survey}
-    \field{journaltitle}{Work Pap.--2016}
+    \field{journaltitle}{International Journal of Web and Grid Services}
     \field{year}{2016}
   \endentry
 \enddatalist
